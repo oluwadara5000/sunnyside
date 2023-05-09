@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Fraunces', serif; */
+/* font-family: 'Barlow', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  cursor: pointer;
+}
+
+html,
+body {
+  width: 100%;
+  background-color: #000000;
+}
+
+section {
+  width: 1440px;
+  margin: auto;
+}
+
+.hero {
+  background-image: url(images/desktop/image-header.jpg);
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 45px;
+  padding-top: 30px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.right-container button {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  padding: 15px 35px;
+  border: 0;
+  border-radius: 50px;
+}
+
+.right-container ul {
+  display: flex;
+  gap: 50px;
+}
+
+.right-container ul li {  
+  list-style-type: none;
+  color: #ffffff;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+}
+
+.hero h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 100px;
+}
+
+.second-div{
+  display: flex;
+  height: 600px;
+}
+
+.second-div-writeup{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 115px;
+  padding-left: 165px;
+}
+
+.second-div-writeup h1{
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.second-div-writeup p{
+font-family: 'Barlow', sans-serif;
+color: hsl(210, 4%, 67%);
+font-weight: 600;
+line-height: 30px;
+margin-bottom: 50px;
+}
+
+.second-div-writeup span{ 
+  width: max-content;
+  padding: 0 7px;
+  text-transform: uppercase;
+  font-family: 'Fraunces', serif;
+  border-bottom: 8px solid hsl(51, 100%, 49%);
+}
+
+.third-div{
+  display: flex;
+  height: 600px;
+}
+
+.third-div-writeup{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 175px;
+  padding-left: 110px;
+}
+
+.third-div-writeup h1{
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.third-div-writeup p{
+font-family: 'Barlow', sans-serif;
+color: hsl(210, 4%, 67%);
+font-weight: 600;
+line-height: 30px;
+margin-bottom: 50px;
+}
+
+.third-div-writeup span{ 
+  width: max-content;
+  padding: 0 7px;
+  text-transform: uppercase;
+  font-family: 'Fraunces', serif;
+  border-bottom: 8px solid hsl(7, 99%, 70%);
+}
+
+.fourth-div{
+  display: flex;
+  height: 600px;
+}
+
+.graphic-design{
+  background-image: url(images/desktop/image-graphic-design.jpg);
+  text-align: center;
+  width: 50%;
+}
+
+.graphic-design h1{
+  margin-top: 400px;
+  color: hsl(167, 40%, 24%);
+  font-family: 'Fraunces', serif;
+  margin-bottom: 35px;
+  font-weight: 800;
+}
+
+.graphic-design p{
+  width: 320px;
+  margin: auto;
+  color: hsl(167, 40%, 24%);
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.photography{
+  background-image: url(images/desktop/image-photography.jpg);
+  text-align: center;
+  width: 50%;
+}
+
+.photography h1{
+  margin-top: 400px;
+  color: hsl(198, 62%, 26%);
+  font-family: 'Fraunces', serif;
+  margin-bottom: 35px;
+  font-weight: 800;
+}
+
+.photography p{
+  width: 320px;
+  margin: auto;
+  color: hsl(198, 62%, 26%);
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.fifth-div{
+  background-color: #ffffff;
+  padding: 165px 170px;
+  text-align: center;
+}
+
+.fifth-div > h1{
+  text-transform: uppercase;
+  font-family: 'Fraunces', serif;
+  color: hsl(210, 4%, 67%);
+  letter-spacing: 5px;
+  font-size: 23px;
+  font-weight: 900;
+  margin-bottom: 85px;
+}
+
+.testimonial-container{
+display: flex;
+justify-content: space-between;
+}
+
+.testimonial-container div{
+  width: 330px;
+}
+
+.testimonial-container div img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 65px;
+}
+
+.testimonial-container div p{
+  font-family: 'Barlow', sans-serif;
+  color: hsl(213, 9%, 39%);
+  font-weight: 600;
+  margin-bottom: 80px;
+  line-height: 25px;
+}
+
+.testimonial-container div h1{
+  color: hsl(212, 27%, 19%);
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
+}
+
+.testimonial-container div span{
+  color: hsl(210, 4%, 67%);
+  font-family: 'Barlow', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+.testing {
+  width: 100%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.one {
+  background-color: hsl(7, 99%, 70%);
+}
+
+.two {
+  background-color: hsl(51, 100%, 49%);
+}
+
+.three {
+  background-color: hsl(167, 40%, 24%);
+}
+
+.four {
+  background-color: hsl(198, 62%, 26%);
+}
+
+.five {
+  background-color: hsl(168, 34%, 41%);
+}
+
+.six {
+  background-color: hsl(212, 27%, 19%);
+}
+
+.seven {
+  background-color: hsl(213, 9%, 39%);
+}
+
+.eight {
+  background-color: hsl(232, 10%, 55%);
+}
+
+.nine {
+  background-color: hsl(210, 4%, 67%);
+}
