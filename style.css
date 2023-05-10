@@ -46,12 +46,17 @@ header {
   gap: 50px;
 }
 
-.right-container button {
+button {
   font-family: "Fraunces", serif;
   font-weight: 900;
-  padding: 15px 35px;
+  padding: 17px 35px;
   border: 0;
   border-radius: 50px;
+}
+
+button:hover{
+  background-color: hsl(200, 100%, 72%);
+  color: #ffffff;
 }
 
 .right-container ul {
@@ -70,8 +75,8 @@ header {
   color: #ffffff;
   text-transform: uppercase;
   font-family: "Fraunces", serif;
-  font-size: 50px;
-  letter-spacing: 5px;
+  font-size: 60px;
+  letter-spacing: 8px;
   margin-bottom: 100px;
 }
 
@@ -85,7 +90,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 115px;
+  padding-right: 125px;
   padding-left: 165px;
 }
 
@@ -94,6 +99,7 @@ header {
   font-weight: 900;
   font-size: 50px;
   margin-bottom: 50px;
+  color: hsl(212, 27%, 19%);
 }
 
 .second-div-writeup p{
@@ -102,6 +108,7 @@ color: hsl(210, 4%, 67%);
 font-weight: 600;
 line-height: 30px;
 margin-bottom: 50px;
+font-size: 17px;
 }
 
 .second-div-writeup span{ 
@@ -109,6 +116,10 @@ margin-bottom: 50px;
   padding: 0 7px;
   text-transform: uppercase;
   font-family: 'Fraunces', serif;
+  border-bottom: 8px solid hsl(51, 64%, 84%);
+}
+
+.second-div-writeup span:hover{
   border-bottom: 8px solid hsl(51, 100%, 49%);
 }
 
@@ -131,6 +142,7 @@ margin-bottom: 50px;
   font-weight: 900;
   font-size: 40px;
   margin-bottom: 50px;
+  color: hsl(212, 27%, 19%);
 }
 
 .third-div-writeup p{
@@ -139,6 +151,7 @@ color: hsl(210, 4%, 67%);
 font-weight: 600;
 line-height: 30px;
 margin-bottom: 50px;
+font-size: 17px;
 }
 
 .third-div-writeup span{ 
@@ -146,6 +159,10 @@ margin-bottom: 50px;
   padding: 0 7px;
   text-transform: uppercase;
   font-family: 'Fraunces', serif;
+  border-bottom: 8px solid hsl(6, 78%, 86%);
+}
+
+.third-div-writeup span:hover{
   border-bottom: 8px solid hsl(7, 99%, 70%);
 }
 
@@ -173,7 +190,7 @@ margin-bottom: 50px;
   margin: auto;
   color: hsl(167, 40%, 24%);
   font-family: 'Barlow', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 25px;
   font-weight: 600;
 }
@@ -197,7 +214,7 @@ margin-bottom: 50px;
   margin: auto;
   color: hsl(198, 62%, 26%);
   font-family: 'Barlow', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 25px;
   font-weight: 600;
 }
@@ -215,7 +232,7 @@ margin-bottom: 50px;
   letter-spacing: 5px;
   font-size: 23px;
   font-weight: 900;
-  margin-bottom: 85px;
+  margin-bottom: 75px;
 }
 
 .testimonial-container{
@@ -231,7 +248,7 @@ justify-content: space-between;
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  margin-bottom: 65px;
+  margin-bottom: 55px;
 }
 
 .testimonial-container div p{
@@ -240,12 +257,15 @@ justify-content: space-between;
   font-weight: 600;
   margin-bottom: 80px;
   line-height: 25px;
+  font-size: 17px;
 }
 
 .testimonial-container div h1{
   color: hsl(212, 27%, 19%);
   font-family: 'Fraunces', serif;
   font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 15px;
 }
 
 .testimonial-container div span{
@@ -255,8 +275,68 @@ justify-content: space-between;
   font-weight: 600;
 }
 
+.sixth-div{
+  height: 450px;
+}
 
-.testing {
+.sixth-div div{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.sixth-div div div{
+  width: 360px;
+}
+
+.sixth-div div div img{
+  width: inherit;
+  height: inherit;
+}
+
+footer{
+  padding: 75px 0;
+  background-color: hsl(167, 44%, 70%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-list ul{
+display: flex;
+gap: 55px;
+margin-top: 40px;
+margin-bottom: 74px;
+}
+
+.footer-list ul li{
+  list-style-type: none;
+  color: hsl(167, 40%, 24%);
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+font-size: 18px;
+}
+
+.footer-list ul li:hover{
+  color: #ffffff;
+}
+
+.footer-icons{
+color: hsl(167, 40%, 24%);
+font-size: 24px;
+display: flex;
+gap: 30px;
+}
+
+.footer-icons i:hover{
+  color: #ffffff;
+}
+
+
+/* TIME FOR MEDIA QUERIES */
+
+/* .testing {
   width: 100%;
   height: 600px;
   display: grid;
@@ -297,4 +377,4 @@ justify-content: space-between;
 
 .nine {
   background-color: hsl(210, 4%, 67%);
-}
+} */
