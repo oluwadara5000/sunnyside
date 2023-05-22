@@ -46,6 +46,10 @@ header {
   gap: 50px;
 }
 
+.nav-bar{
+  display: none;
+}
+
 button {
   font-family: "Fraunces", serif;
   font-weight: 900;
@@ -83,6 +87,10 @@ button:hover{
 .second-div{
   display: flex;
   height: 600px;
+}
+
+.second-div-mobile{
+  display: none;
 }
 
 .second-div-writeup{
@@ -126,6 +134,10 @@ font-size: 17px;
 .third-div{
   display: flex;
   height: 600px;
+}
+
+.third-div-mobile{
+  display: none;
 }
 
 .third-div-writeup{
@@ -404,4 +416,118 @@ gap: 30px;
 /* MEDIA QUERIES */
 /* FOR SCREENS 375px and BELOW */
 @media screen and (max-width: 375px) {
+  section{
+    width: 100%;
+  }
+
+  .hero{
+height: max-content;
+background-image: url(images/mobile/image-header.jpg);
+  }
+
+  header{
+    padding: 0 25px;
+    padding-top: 30px;
+     margin-bottom: 100px;
+  }
+
+  .right-container{
+    display: none;
+  }
+
+  .nav-bar{
+    display: block;
+    color: #ffffff;
+  }
+
+  .hero h1{
+    font-size: 45px;
+    margin-bottom: 35px;
+  }
+
+  .arrow{
+    margin-bottom: 120px;
+  }
+
+  .second-div{
+    flex-direction: column-reverse;
+    height: max-content;
+  }
+
+  .second-div-desktop{
+    display: none;
+  }
+
+  .second-div-mobile{
+    display: block;
+    height: 310px;
+  }
+
+  .second-div-mobile img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .second-div-writeup{
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .second-div-writeup h1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 40px;
+  }
+
+  .second-div-writeup p{
+    line-height: 25px;
+    font-size: 15px;
+  }
+
+  .second-div-writeup span{
+  margin: auto;
+  margin-bottom: 44px;
+  }
+
+  .third-div{
+    height: max-content;
+    flex-direction: column;
+  }
+
+  .third-div-desktop{
+    display: none;
+  }
+
+  .third-div-mobile{
+    display: block;
+    height: 310px;
+  }
+
+  .third-div-mobile img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .third-div-writeup{
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .third-div-writeup h1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 40px;
+  }
+
+  .third-div-writeup p{
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  .third-div-writeup span{
+  margin: auto;
+  margin-bottom: 44px;
+  }
 }
